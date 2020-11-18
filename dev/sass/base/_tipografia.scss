@@ -1,0 +1,29 @@
+/* ******************************** */
+
+
+/* ******************************** */
+
+
+/* TIPOGRAFIA */
+
+
+/* ******************************** */
+
+
+/* ******************************** */
+
+
+/* ******************************** */
+
+// Tipografía Base
+$font_fz-base: convertir(16);
+$font: 'Arial',
+'Arial Black';
+html {
+    font-size: $font_fz-base;
+    font-family: nth($font, 1), sans-serif;
+    font-style: normal;
+}
+
+// Párrafo
+$font_fz-text: convertir(24);
